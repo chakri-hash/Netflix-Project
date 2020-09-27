@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+    margin : 0;
+}
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+.no > img{
+    margin: 5px;
+    transition: transform 0.5s;
+}
+.no > img:hover{
+    transform: scale(1.1);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.tr{
+    display: flex;
+    overflow-y: hidden;
+}
+.tr > img{
+    margin: 5px;
+    transition: transform 0.5s;
+}
+.tr > img:hover{
+    transform: scale(1.1);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.container{
+    background-image: url("https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/1da42153570573.5938fd77e87cd.jpg?itok=wXjRkp_f");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
